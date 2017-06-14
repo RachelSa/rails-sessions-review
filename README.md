@@ -20,6 +20,7 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
   - What are sessions?
   - How are sessions different from cookies?
   - What do we store in sessions and why?
+  - How does someone become 'logged in' when they press 'submit' on a login form? 
 
   "Cookies, Sessions and Flashes are three special objects that Rails 4 gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached."
     - <a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/sessions-cookies-and-authentication">The Odin Project</a>
