@@ -1,0 +1,13 @@
+<h4 class="center-align">FLATIRON SCHOOL TREASURE DASHBOARD</h4>
+<h2 class="center-align">🦇🦇🦇🦇🦇🦇🦇🦇🦇🦇</h2>
+
+<ul>
+
+
+<% if logged_in? %>
+  <li><%= link_to "LOL decoy map!!", "/decoy-map" %></li>
+  <li><%= link_to "real map", "/real-map" %></li>
+<% else %>
+    <li><%= link_to "map", "/decoy-map" %></li>
+<% end %>
+</ul>
