@@ -1,4 +1,6 @@
-# Topics
+# Rails Sessions Review
+
+## Topics
   - Cookies, Sessions, Flash Messages - Where do they come from? Where do they go?
   - Application controller methods
   - Helper methods
@@ -6,7 +8,7 @@
   - Authentication vs Authorization
   - Treasure maps!!!
   
-# Rails Sessions Review
+## Goal
 
 Create a user log in for our rails app in order to view the map to the Flatiron School Treasure.
 
