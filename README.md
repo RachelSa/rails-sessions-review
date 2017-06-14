@@ -25,7 +25,7 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
     - <a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/sessions-cookies-and-authentication">The Odin Project</a>
     
 ## To Do
-  1. Add sessions
+  1. Add sessions to user creation and login
 
   2. Redirect (unless logged in) if someone tries to navigate to map
 
