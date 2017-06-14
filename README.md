@@ -1,3 +1,11 @@
+# Topics
+  - Cookies, Sessions, Flash Messages - Where do they come from? Where do they go?
+  - Application controller methods
+  - Helper methods
+  - Before actions
+  - Authentication vs Authorization
+  - Treasure maps!!!
+  
 # Rails Sessions Review
 
 Create a user log in for our rails app in order to view the map to the Flatiron School Treasure.
@@ -32,4 +40,7 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
   2. Redirect (unless logged in) if someone tries to navigate to map
 
   3. Toggle log out or login in nav
+  
+  # One More Question
+  - What's the difference between authentication and authorization? 
 
