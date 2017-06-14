@@ -1,24 +1,32 @@
-# README
+# Rails Sessions Review
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create a user log in for our rails app in order to view the map to the Flatiron School Treasure.
 
-Things you may want to cover:
+## What we have now:
+  1. rails app
+  2. <a href="https://github.com/codahale/bcrypt-ruby">bcrypt gem</a>
+  3. migration with user and password
+  4. User model
+  5. Static views folder
+  6. Login and signup forms made, but nothing persisted to DB
 
-* Ruby version
+## Problems:
+  1. People can see the map without logging in. Bad!
+  2. Session id is not being saved upon user creation or login
 
-* System dependencies
+## Questions:
 
-* Configuration
+  - What are sessions?
+  - How are sessions different from cookies?
+  - What do we store in sessions and why?
 
-* Database creation
+  "Cookies, Sessions and Flashes are three special objects that Rails 4 gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached."
+    - <a href="https://www.theodinproject.com/courses/ruby-on-rails/lessons/sessions-cookies-and-authentication">The Odin Project</a>
+    
+## To Do
+  1. Add sessions
 
-* Database initialization
+  2. Redirect (unless logged in) if someone tries to navigate to map
 
-* How to run the test suite
+  3. Toggle log out or login in nav
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
