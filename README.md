@@ -19,6 +19,7 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
 
   - What are sessions?
   - How are sessions different from cookies?
+  - Side note: what about flash messages?
   - What do we store in sessions and why?
   - How does someone become 'logged in' when they press 'submit' on a login form? 
 
