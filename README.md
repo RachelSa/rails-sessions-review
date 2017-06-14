@@ -6,7 +6,7 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
   1. rails app
   2. <a href="https://github.com/codahale/bcrypt-ruby">bcrypt gem</a>
   3. migration with user and password
-  4. User model
+  4. User model with <a href="https://apidock.com/rails/v4.0.2/ActiveModel/SecurePassword/ClassMethods/has_secure_password">secure password</a>
   5. Static views folder
   6. Login and signup forms made, but nothing persisted to DB
 
