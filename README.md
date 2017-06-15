@@ -27,7 +27,7 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
 
 ## Questions:
 
-  - What are sessions?
+  - What do sessions do for us?
   - How are sessions different from cookies?
   - Side note: what about flash messages?
   - What do we store in sessions and why?
