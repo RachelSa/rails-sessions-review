@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  before_action :authenticate_user, only: [:map]
+  before_action :authorize_user, only: [:map]
 
   def home
     @user = User.new
