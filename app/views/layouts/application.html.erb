@@ -18,9 +18,11 @@
       <a href="/dashboard" class="brand-logo">👻 Flatiron School Treasure App</a>
       <ul id="nav-mobile" class="right">
         <li><%= link_to "Dashboard", "/dashboard" %></li>
-      
+        <% if logged_in? %>
         <li><%= link_to "Logout", "/sessions/:id", method: :post %></li>
-
+        <% else %>
+          <li><%= link_to "Login", root_path %></li>
+        <% end %>
       </ul>
     </div>
   </nav>

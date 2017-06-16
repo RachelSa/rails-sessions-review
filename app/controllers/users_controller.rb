@@ -4,7 +4,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(users_params)
     if @user.save
-      # flash and sessions
+      session[:user_id] = @user.id
+      flash[:notice] = "🍧 successful sign up!"
       redirect_to dashboard_path
     else
       flash[:notice] = "🦉 Not a valid user!!"

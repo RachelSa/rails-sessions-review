@@ -1,8 +1,16 @@
 class SessionsController < ApplicationController
 
-  # add a create action that authenticates a user.
-  # if successful sets the session and gives a flash notice.
-  # Otherwise, redirects and gives flash notice.
+  def create
+    @user = User.find_by(email: params[:user][:email])
+    if @user && @user.authenticate(params[:user][:password])
+      session[:user_id] = @user.id
+      flash[:notice] = "all logged in and stuff!! 🦊"
+      redirect_to dashboard_path
+    else
+      flash[:notice] = "🌭 bad login"
+      redirect_to root_path
+    end
+  end
 
 
 
