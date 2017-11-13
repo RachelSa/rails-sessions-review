@@ -17,4 +17,8 @@ class StaticController < ApplicationController
     render :map
   end
 
+  private
+
+
+
 end

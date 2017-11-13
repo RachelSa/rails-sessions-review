@@ -6,8 +6,11 @@ class ApplicationController < ActionController::Base
     !!session[:user_id]
   end
 
-  # def authorize_user
-  #
-  # end
+  def authorize_user
+    if !logged_in?
+      flash[:notice] = 'hey, no way!'
+      redirect_to root_path
+    end
+  end
 
 end

@@ -43,5 +43,5 @@ Create a user log in for our rails app in order to view the map to the Flatiron 
 
   3. Toggle logout or "Boo!" in nav
 
-  # One More Question
+# One More Question
   - What's the difference between authentication and authorization?
